@@ -8,7 +8,7 @@
 <link rel="apple-touch-icon" href="img/k-app.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Jua&family=Gowun+Dodum&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Dongle:wght@400;700&display=swap" rel="stylesheet">
 <style>
 :root{
   --bg:#FFE6EF; --dot1:#FFFFFF; --dot2:#FFCFE0;
@@ -18,13 +18,13 @@
 *{box-sizing:border-box}
 html,body{overflow-x:hidden}
 body{
-  margin:0; font-family:'Gowun Dodum',system-ui,sans-serif; color:var(--ink); font-size:15px;
+  margin:0; font-family:'Dongle',system-ui,sans-serif; color:var(--ink); font-size:21px;
   background-color:var(--bg);
   background-image:radial-gradient(var(--dot1) 3px,transparent 3.6px),radial-gradient(var(--dot2) 3px,transparent 3.6px);
   background-size:38px 38px; background-position:0 0,19px 19px;
 }
-button,input,select{font-family:inherit;font-size:15px;color:var(--ink)}
-.jua{font-family:'Jua',sans-serif}
+button,input,select{font-family:inherit;font-size:21px;color:var(--ink)}
+.jua{font-family:'Dongle',sans-serif;font-weight:700}
 
 /* ---------- 스티커 ---------- */
 .stk{
@@ -43,35 +43,35 @@ button,input,select{font-family:inherit;font-size:15px;color:var(--ink)}
 .wrap{max-width:720px;margin:0 auto;padding:18px 16px 60px;position:relative;z-index:1}
 .hero{position:relative;text-align:center;padding:46px 0 10px}
 .hero h1{
-  font-family:'Jua',sans-serif;font-size:64px;line-height:1;margin:0;color:var(--pink);letter-spacing:1px;
+  font-family:'Dongle',sans-serif;font-weight:700;font-size:89.6px;line-height:1;margin:0;color:var(--pink);letter-spacing:1px;
   text-shadow:3px 3px 0 #fff,-3px 3px 0 #fff,3px -3px 0 #fff,-3px -3px 0 #fff,0 7px 0 var(--pink-l);
 }
-.hero p{margin:10px 0 0;font-size:17px;color:var(--pink-d)}
+.hero p{margin:10px 0 0;font-size:23.8px;color:var(--pink-d)}
 .topbtn{position:absolute;right:0;top:4px;z-index:4}
 
 .card{
   position:relative;z-index:1;background:#fff;border:3px solid var(--line);border-radius:28px;
   padding:20px 18px 18px;margin:34px 0;box-shadow:0 6px 0 var(--pink-l);
 }
-.card h2{font-family:'Jua',sans-serif;font-size:22px;margin:0 0 4px;color:var(--pink-d);padding-right:86px}
-.card .desc{margin:0 0 14px;color:var(--sub);font-size:13.5px;padding-right:70px}
+.card h2{font-family:'Dongle',sans-serif;font-weight:700;font-size:30.8px;margin:0 0 4px;color:var(--pink-d);padding-right:86px}
+.card .desc{margin:0 0 14px;color:var(--sub);font-size:18.9px;padding-right:70px}
 
 /* ---------- 버튼·입력 ---------- */
 .btn{
   border:none;border-radius:999px;padding:10px 18px;background:var(--pink);color:#fff;cursor:pointer;
-  font-family:'Jua',sans-serif;font-size:16px;box-shadow:0 4px 0 var(--pink-d);transition:transform .08s;
+  font-family:'Dongle',sans-serif;font-weight:700;font-size:22.4px;box-shadow:0 4px 0 var(--pink-d);transition:transform .08s;
 }
 .btn:active{transform:translateY(3px);box-shadow:0 1px 0 var(--pink-d)}
 .btn.ghost{background:#fff;color:var(--pink-d);border:2px solid var(--pink-l);box-shadow:0 3px 0 var(--pink-l)}
-.btn.small{padding:6px 12px;font-size:14px}
+.btn.small{padding:6px 12px;font-size:19.6px}
 .btn:disabled{opacity:.5;cursor:default}
-.big{display:block;width:100%;font-size:24px;padding:16px;margin-top:6px}
+.big{display:block;width:100%;font-size:33.6px;padding:16px;margin-top:6px}
 input[type=text],input[type=password],input[type=datetime-local]{
   width:100%;border:2px solid var(--line);border-radius:14px;padding:10px 12px;background:var(--pink-xl);outline:none;
 }
 input:focus{border-color:var(--pink);background:#fff}
 input.ok{border-color:#9AD7BF;background:#F2FBF7}
-.x{border:none;background:var(--pink-xl);color:var(--pink-d);width:34px;height:34px;border-radius:50%;cursor:pointer;font-size:18px;flex:none}
+.x{border:none;background:var(--pink-xl);color:var(--pink-d);width:34px;height:34px;border-radius:50%;cursor:pointer;font-size:25.2px;flex:none}
 .x:hover{background:var(--pink-l)}
 
 /* ---------- 사람 ---------- */
@@ -79,10 +79,10 @@ input.ok{border-color:#9AD7BF;background:#F2FBF7}
   display:grid;grid-template-columns:92px 1fr auto 34px;gap:8px;align-items:center;
   padding:10px;border:2px dashed var(--line);border-radius:18px;margin-bottom:10px;background:#fff;
 }
-.person .nm{text-align:center;font-family:'Jua',sans-serif;font-size:16px}
+.person .nm{text-align:center;font-family:'Dongle',sans-serif;font-weight:700;font-size:22.4px}
 .seg{display:flex;background:var(--pink-xl);border-radius:999px;padding:3px;border:2px solid var(--line)}
-.seg button{border:none;background:transparent;padding:7px 10px;border-radius:999px;cursor:pointer;white-space:nowrap;font-size:14px}
-.seg button.on{background:var(--pink);color:#fff;font-family:'Jua',sans-serif}
+.seg button{border:none;background:transparent;padding:7px 10px;border-radius:999px;cursor:pointer;white-space:nowrap;font-size:19.6px}
+.seg button.on{background:var(--pink);color:#fff;font-family:'Dongle',sans-serif;font-weight:700}
 @media (max-width:560px){
   .person{grid-template-columns:1fr auto 34px;grid-template-areas:"nm seg x" "pl pl pl"}
   .person .nm{grid-area:nm;text-align:left}.person .seg{grid-area:seg}.person .x{grid-area:x}.person .ac{grid-area:pl}
@@ -96,50 +96,50 @@ input.ok{border-color:#9AD7BF;background:#F2FBF7}
 }
 .ac li{padding:8px 10px;border-radius:10px;cursor:pointer}
 .ac li:hover,.ac li.sel{background:var(--pink-xl)}
-.ac li small{display:block;color:var(--sub);font-size:12px}
+.ac li small{display:block;color:var(--sub);font-size:16.8px}
 .ac li.msg{cursor:default;color:var(--sub)}
 
 /* ---------- 후보지 ---------- */
 .chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
 .chip{display:flex;align-items:center;gap:6px;background:var(--pink-xl);border:2px solid var(--line);border-radius:999px;padding:5px 6px 5px 12px}
-.chip b{font-family:'Jua',sans-serif;color:var(--pink);font-weight:normal}
-.chip .x{width:26px;height:26px;font-size:14px;background:#fff}
-.empty{color:var(--sub);font-size:14px;margin:10px 2px 0}
+.chip b{font-family:'Dongle',sans-serif;font-weight:700;color:var(--pink)}
+.chip .x{width:26px;height:26px;font-size:19.6px;background:#fff}
+.empty{color:var(--sub);font-size:19.6px;margin:10px 2px 0}
 
 /* ---------- 시간·기준 ---------- */
 .pills{display:flex;flex-wrap:wrap;gap:8px}
 .pill{border:2px solid var(--line);background:#fff;border-radius:999px;padding:8px 14px;cursor:pointer}
-.pill.on{background:var(--pink);border-color:var(--pink);color:#fff;font-family:'Jua',sans-serif}
-.note{font-size:13px;color:var(--sub);margin:10px 2px 0}
+.pill.on{background:var(--pink);border-color:var(--pink);color:#fff;font-family:'Dongle',sans-serif;font-weight:700}
+.note{font-size:18.2px;color:var(--sub);margin:10px 2px 0}
 #timeBox{margin-top:10px;max-width:280px}
 
 /* ---------- 지도 ---------- */
 #map{width:100%;height:340px;border-radius:18px;border:3px solid var(--pink-l);background:var(--pink-xl)}
-.lbl{font-family:'Jua',sans-serif;font-size:13px;padding:4px 10px;border-radius:999px;white-space:nowrap;border:2px solid #fff;box-shadow:0 2px 4px rgba(0,0,0,.25)}
+.lbl{font-family:'Dongle',sans-serif;font-weight:700;font-size:18.2px;padding:4px 10px;border-radius:999px;white-space:nowrap;border:2px solid #fff;box-shadow:0 2px 4px rgba(0,0,0,.25)}
 .lbl.p{background:var(--pink);color:#fff}
 .lbl.c{background:#fff;color:var(--pink-d);border-color:var(--pink)}
 .lbl.c.top{background:#FFD84D;color:#7A4B00;border-color:#fff}
 
 /* ---------- 결과 ---------- */
-.status{margin:12px 0 0;color:var(--pink-d);font-family:'Jua',sans-serif;text-align:center;min-height:20px}
+.status{margin:12px 0 0;color:var(--pink-d);font-family:'Dongle',sans-serif;font-weight:700;text-align:center;min-height:20px}
 .err{color:var(--bad)}
 .res{position:relative;border:2px solid var(--line);border-radius:20px;padding:14px;margin-top:14px;background:#fff}
 .res.first{border:3px solid var(--pink);background:linear-gradient(#fff,#FFF5F9)}
 .res .head{display:flex;align-items:center;gap:10px;padding-right:40px}
-.rank{flex:none;width:38px;height:38px;border-radius:50%;background:var(--pink-l);color:var(--pink-d);display:grid;place-items:center;font-family:'Jua',sans-serif;font-size:19px}
+.rank{flex:none;width:38px;height:38px;border-radius:50%;background:var(--pink-l);color:var(--pink-d);display:grid;place-items:center;font-family:'Dongle',sans-serif;font-weight:700;font-size:26.6px}
 .res.first .rank{background:var(--pink);color:#fff}
-.res .title{font-family:'Jua',sans-serif;font-size:19px}
-.res .metrics{font-size:13px;color:var(--sub);margin-top:2px}
+.res .title{font-family:'Dongle',sans-serif;font-weight:700;font-size:26.6px}
+.res .metrics{font-size:18.2px;color:var(--sub);margin-top:2px}
 .res .metrics em{font-style:normal;color:var(--pink-d);font-weight:bold}
 .rows{margin-top:10px}
-.row{display:grid;grid-template-columns:70px 1fr 74px;gap:8px;align-items:center;margin:7px 0;font-size:14px}
+.row{display:grid;grid-template-columns:70px 1fr 74px;gap:8px;align-items:center;margin:7px 0;font-size:19.6px}
 .row .who{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .bar{height:14px;background:var(--pink-xl);border-radius:999px;overflow:hidden;border:1.5px solid var(--line)}
 .bar i{display:block;height:100%;background:linear-gradient(90deg,#FF9BBB,var(--pink));border-radius:999px}
-.row .t{text-align:right;font-family:'Jua',sans-serif}
-.row .sub{grid-column:2 / 4;font-size:12px;color:var(--sub);margin-top:-4px}
+.row .t{text-align:right;font-family:'Dongle',sans-serif;font-weight:700}
+.row .sub{grid-column:2 / 4;font-size:16.8px;color:var(--sub);margin-top:-4px}
 .row .sub a{color:var(--pink-d)}
-.row.fail .t{color:var(--bad);font-family:inherit;font-size:12px}
+.row.fail .t{color:var(--bad);font-family:inherit;font-size:16.8px}
 .acts{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
 .near{margin-top:10px;border-top:2px dashed var(--line);padding-top:8px}
 .near ol{margin:4px 0 0;padding-left:22px}
@@ -148,16 +148,16 @@ input.ok{border-color:#9AD7BF;background:#F2FBF7}
 .near small{color:var(--sub)}
 
 /* ---------- 키 설정 ---------- */
-.keys label{display:block;font-family:'Jua',sans-serif;margin:10px 0 4px;color:var(--pink-d)}
+.keys label{display:block;font-family:'Dongle',sans-serif;font-weight:700;margin:10px 0 4px;color:var(--pink-d)}
 .keys .btns{display:flex;gap:8px;margin-top:14px;flex-wrap:wrap}
-.keys ol{margin:8px 0 0;padding-left:20px;font-size:13.5px;color:var(--sub);line-height:1.6}
+.keys ol{margin:8px 0 0;padding-left:20px;font-size:18.9px;color:var(--sub);line-height:1.6}
 .keys a{color:var(--pink-d)}
 .hidden{display:none!important}
 
-footer{text-align:center;font-size:12px;color:var(--sub);margin-top:30px;line-height:1.7}
+footer{text-align:center;font-size:16.8px;color:var(--sub);margin-top:30px;line-height:1.7}
 footer a{color:var(--pink-d)}
 @media (max-width:560px){
-  .hero h1{font-size:52px}
+  .hero h1{font-size:72.8px}
   .card{padding:18px 14px 16px}
   .row{grid-template-columns:58px 1fr 66px}
   .hide-m{display:none}
@@ -197,9 +197,9 @@ footer a{color:var(--pink-d)}
     <img class="stk s3" src="img/party.png" alt="" style="width:48px;right:66px;top:-24px;rotate:-14deg">
     <h2>카카오 키 넣기</h2>
     <p class="desc">이 기기 브라우저에만 저장되고, 코드나 GitHub에는 올라가지 않아요.</p>
-    <label for="jsKey">JavaScript 키 <span class="hide-m" style="font-family:'Gowun Dodum';font-size:12px;color:var(--sub)">(지도·장소 검색)</span></label>
+    <label for="jsKey">JavaScript 키 <span class="hide-m" style="font-family:'Dongle';font-weight:400;font-size:16.8px;color:var(--sub)">(지도·장소 검색)</span></label>
     <input type="password" id="jsKey" autocomplete="off" placeholder="JavaScript 키">
-    <label for="proxyUrl">중계 서버 주소 <span class="hide-m" style="font-family:'Gowun Dodum';font-size:12px;color:var(--sub)">(자차·대중교통 경로)</span></label>
+    <label for="proxyUrl">중계 서버 주소 <span class="hide-m" style="font-family:'Dongle';font-weight:400;font-size:16.8px;color:var(--sub)">(자차·대중교통 경로)</span></label>
     <input type="text" id="proxyUrl" autocomplete="off" placeholder="https://meetty-proxy.아이디.workers.dev">
     <div class="btns">
       <button class="btn" id="saveKeys">저장하고 시작</button>
